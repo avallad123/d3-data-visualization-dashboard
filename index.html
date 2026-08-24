@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+
+            <title>Heart Disease Explorer</title>
+            <script src="https://d3js.org/d3.v7.min.js"></script>
+            <link rel="stylesheet" href="style.css">
+
+        </head>
+        
+        <body>
+            <div id="dashboard">
+                <h1>Heart Disease Data Explorer</h1>
+    
+                <div id="filters">
+                    <div class="filter">
+                        <label>Gender:</label>
+                        <select id="gender-filter">
+                            <option value="all">All</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                    <div class="filter">
+                        <label>Chest Pain Type:</label>
+                        <select id="cp-filter">
+                            <!--<option value="all">All</option>-->
+                        </select>
+                    </div>
+                </div>
+
+                <div id="visualizations">
+                    <div id="bar-chart" class="chart"></div>
+                    <div id="scatter-plot" class="chart"></div>
+                </div>
+
+            </div>
+
+            <script src="script.js"></script>
+
+        </body>
+    </html>

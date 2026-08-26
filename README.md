@@ -40,4 +40,3 @@ This project was originally built as a capstone for a data visualization course 
                                - ## Skills demonstrated
                               
                                - D3.js, data cleaning and transformation, interactive visualization design, usability testing and iterative design, and translating a dataset into a clear analytical narrative.
-                               - 
